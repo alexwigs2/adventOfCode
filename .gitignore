@@ -1,0 +1,95 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+MyPlayground.playground/playground.xcworkspace/xcuserdata/alexwigsmoen.xcuserdatad/
+MyPlayground.playground/playground.xcworkspace/xcuserdata/alexwigsmoen.xcuserdatad/
+MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata
+UserInterfaceState.xcuserstateUserInterfaceState.xcuserstate
+*.moved-aside
+DerivedData
+.idea/
+
+# Pods - for those of you who use CocoaPods
+Pods
+changEDFirebaseTests
+
+## User settings
+xcuserdata/
+
+MyPlayground.playground/playground.xcworkspace/xcuserdata/alexwigsmoen.xcuserdatad/
+MyPlayground.playground/playground.xcworkspace/xcuserdata/alexwigsmoen.xcuserdatad/
+MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+#
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+.build/
+
+# dev downloads their own plist to seperate testing/production
+GoogleService-Info.plist
+GoogleService-Info-Development.plist
+changed-fd9ca-firebase-crashreporting-js4c3-7221d4ef16.json
+configActual.plist
+Config.plist
+config.tar
+scripts/certs/dist.cer
+scripts/certs/dist.p12
+scripts/certs/develop.cer
+scripts/certs/develop.p12
+scripts/certs/apple.cer
+scripts/certs/appleUpdated.cer
+configProd.tar
+
